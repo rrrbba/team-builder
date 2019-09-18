@@ -12,12 +12,12 @@ const MemberPage = styled.div `
 function App() {
 
   const [members, setMembers] = useState([
-    {
-      id: 1,
-      name: "Rayven Burns", 
-      email: "rayven.burns@gmail.com",
-      role: "Student" 
-    }
+    // {
+    //   id: 1,
+    //   name: "Rayven Burns", 
+    //   email: "rayven.burns@gmail.com",
+    //   role: "Student" 
+    // }
   ]);
 
   const addNewMember = member => {
